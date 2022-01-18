@@ -1,0 +1,362 @@
+/* banner */
+.banner_w3lspvt {
+    position: relative;
+    z-index: 1;
+}
+
+.csslider>ul>li {
+    min-height: 800px;
+}
+
+.csslider>ul>li:first-child {
+    background: url(../images/1.jpeg) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+}
+
+.csslider>ul>li:nth-child(2) {
+    background: url(../images/2.jpg) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+}
+
+.csslider>ul>li:nth-child(3) {
+    background: url(../images/3.jpg) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+}
+
+.csslider>ul>li:last-child {
+    background: url(../images/4.jpg) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+}
+
+.w3ls_banner_txt {
+    margin-top: 13.5em;
+    max-width: 400px;
+}
+
+.w3ls_banner_txt p {
+    color: #eee;
+    font-size: 15px;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+}
+
+h3.w3ls_pvt-title {
+    font-size: 70px;
+    text-shadow: 6px 6px 5px rgba(0, 0, 0, 0.59);
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.w3ls_banner_txt h5 {
+    font-weight: 400;
+    color: #000;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.button-style {
+    padding: 14px 20px;
+    border: none;
+    color: #fff;
+    font-size: 13px;
+    letter-spacing: 2px;
+    background: #f0546a;
+    -webkit-border-radius: 4px;
+    -o-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.button-style:hover {
+    color: #fff;
+}
+
+/* banner responsive */
+@media(max-width: 1440px) {
+    .csslider>ul>li {
+        min-height: 740px;
+    }
+
+    .w3ls_banner_txt {
+        margin-top: 13em;
+    }
+
+    h3.w3ls_pvt-title {
+        font-size: 66px;
+    }
+}
+
+@media(max-width: 1080px) {
+    .csslider>ul>li {
+        min-height: 630px;
+    }
+
+    h3.w3ls_pvt-title {
+        font-size: 56px;
+    }
+
+    .w3ls_banner_txt {
+        margin-top: 11em;
+    }
+
+    .w3ls_banner_txt p {
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 1050px) {
+    .w3ls_banner_txt {
+        margin-left: 1em;
+    }
+
+    h3.w3ls_pvt-title {
+        font-size: 52px;
+    }
+}
+
+@media(max-width: 991px) {
+    h3.w3ls_pvt-title {
+        font-size: 45px;
+    }
+
+    .w3ls_banner_txt p {
+        font-size: 13px;
+        letter-spacing: 3px;
+    }
+
+    .csslider>ul>li {
+        min-height: 600px;
+    }
+
+    .w3ls_banner_txt {
+        margin-top: 12em;
+    }
+}
+
+@media(max-width: 768px) {
+    .w3ls_banner_txt {
+        margin-top: 11em;
+        margin-left: 2em;
+    }
+
+    h3.w3ls_pvt-title {
+        font-size: 42px;
+    }
+
+    .button-style {
+        font-size: 12px;
+    }
+
+    .csslider>ul>li {
+        min-height: 570px;
+    }
+}
+
+@media(max-width: 667px) {
+    h3.w3ls_pvt-title {
+        font-size: 40px;
+    }
+
+    .button-style {
+        padding: 13px 20px;
+    }
+
+    .csslider>ul>li {
+        min-height: 550px;
+    }
+}
+
+@media(max-width: 600px) {
+    .csslider>ul>li {
+        min-height: 510px;
+    }
+
+    .w3ls_banner_txt {
+        margin-top: 10em;
+    }
+
+    h3.w3ls_pvt-title {
+        font-size: 36px;
+    }
+}
+
+@media(max-width: 568px) {
+    .csslider>ul>li {
+        min-height: 470px;
+    }
+
+    .w3ls_banner_txt p {
+        font-size: 12px;
+    }
+
+    .button-style {
+        font-size: 11px;
+    }
+}
+
+@media(max-width: 480px) {
+    h3.w3ls_pvt-title {
+        font-size: 33px;
+    }
+
+    .w3ls_banner_txt p {
+        font-size: 11px;
+    }
+
+    .csslider>ul>li {
+        min-height: 450px;
+    }
+}
+
+@media(max-width: 440px) {
+    .csslider>ul>li {
+        min-height: 430px;
+    }
+
+    .w3ls_banner_txt {
+        margin-top: 9em;
+    }
+
+    h3.w3ls_pvt-title {
+        font-size: 31px;
+    }
+}
+
+@media(max-width: 384px) {
+    h3.w3ls_pvt-title {
+        font-size: 28px;
+    }
+}
+
+@media(max-width: 320px) {
+    .w3ls_banner_txt {
+        margin-left: 1em;
+        margin-top: 8.5em;
+    }
+
+    .w3ls_banner_txt p {
+        font-size: 10px;
+    }
+
+    .csslider>ul>li {
+        min-height: 400px;
+    }
+
+    .button-style {
+        font-size: 10px;
+    }
+
+    h3.w3ls_pvt-title {
+        font-size: 27px;
+    }
+}
+
+/* banner responsive */
+/* //banner */
+
+/* banner bottom */
+.banner-bottom.py-5 {
+    background: #272626;
+}
+
+a.w3ls-button-mobamu {
+    color: #fff;
+    padding: 15px 24px;
+    letter-spacing: 2px;
+    font-size: 13px;
+    display: inline-block;
+    border: 1px solid #fff;
+    -webkit-border-radius: 0px;
+    -o-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+.banner-left-bottom-w3ls {
+    flex: 3;
+}
+
+h6.text-white {
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.banner-left-bottom-w3ls h3 {
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 38px;
+}
+
+.button {
+    flex: 1;
+    margin-top: 3em;
+}
+
+.banner-left-bottom-w3ls p {
+    color: #dadada;
+    font-size: 14px;
+}
+
+/* //banner bottom */
+
+/* about */
+.main-img {
+    position: relative;
+}
+
+.main-img img {
+    border: 11px solid #f5f5f5;
+    box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.08), 0 5px 8px 0 rgba(0, 0, 0, 0.12), 0 1px 14px 0 rgba(0, 0, 0, 0.06);
+}
+
+.pos-aboimg2 {
+    position: absolute;
+    bottom: -70%;
+    left: -23%;
+}
+
+/* about right */
+h3.tittle-w3layouts {
+    text-shadow: 2px 2px 2px rgba(41, 41, 41, 0.15);
+    font-size: 40px;
+    font-weight: 200;
+}
+
+h4.sub-tittle-w3layouts {
+    color: #f0546a;
+    font-size: 18px;
+}
+
+a.btn.button-style-2 {
+    background: #17181b;
+    padding: 16px 30px;
+    border: none;
+    color: #fff;
+    font-size: 13px;
+    letter-spacing: 2px;
+    -webkit-border-radius: 0px;
+    -o-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}

@@ -74,7 +74,7 @@
 						@click="showModal()"
 						aria-label="Hire Me Button"
 					>
-						Hire Me
+						Demo?
 					</button>
 				</div>
 
@@ -99,15 +99,13 @@
 
 <script>
 import ThemeSwitcher from '../ThemeSwitcher';
-import HireMeModal from '../HireMeModal.vue';
+// import HireMeModal from '../HireMeModal.vue';
 import feather from 'feather-icons';
-import AppHeaderLinks from './AppHeaderLinks.vue';
+// import AppHeaderLinks from './AppHeaderLinks.vue';
 
 export default {
 	components: {
 		ThemeSwitcher,
-		HireMeModal,
-		AppHeaderLinks,
 	},
 	data() {
 		return {
