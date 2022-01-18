@@ -13,6 +13,8 @@
 		"autoprefixer": "^9",
 		"core-js": "^3.6.5",
 		"feather-icons": "^4.28.0",
+		"hooper": "^0.3.4",
+		"particles.vue": "^2.22.0",
 		"postcss": "^7",
 		"postcss-flexbugs-fixes": "^5.0.2",
 		"postcss-import": "^14.0.2",
@@ -46,7 +48,9 @@
 		"parserOptions": {
 			"parser": "babel-eslint"
 		},
-		"rules": {}
+		"rules": {
+			"vue/no-deprecated-slot-attribute": "off"
+		}
 	},
 	"browserslist": [
 		"> 1%",
